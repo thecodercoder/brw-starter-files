@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
