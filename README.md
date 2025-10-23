@@ -1,6 +1,6 @@
-# rdb-checkpoints
+# Build a Responsive Website - Starter Files
 
-Code checkpoints for each section in my course, [Build a Responsive Website.](https://coder-coder.com/responsive/)
+Starter files for each section in my course, [Build a Responsive Website.](https://coder-coder.com/responsive/)
 
 Each subfolder contains the **starter** files for that section. For example, the `01_Basic_Course/04 - Hero` folder has the codebase in the state it should be at the **beginning** of the Hero section (before the Hero has been built).
 
