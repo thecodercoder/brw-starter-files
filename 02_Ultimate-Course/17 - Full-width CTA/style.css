@@ -612,7 +612,7 @@
     .blog__grid {
       display: grid;
       gap: 20px;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(calc(300 / 16 * 1rem), 100%), 1fr));
     }
 
     .blog__item {
