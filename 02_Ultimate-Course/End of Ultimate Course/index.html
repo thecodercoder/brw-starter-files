@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mythos</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.jsdelivr.net/gh/rick-liruixin/body-scroll-lock-upgrade@v1.1.0/lib/index.umd.js"></script>
+  <script src="/script.js" defer></script>
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+  <a class="visually-hidden skip" href="#main">Skip to main content</a>
+
+  <header class="topnav">
+    <h2 class="visually-hidden">Header</h2>
+
+    <div class="wrapper topnav__wrapper">
+      <a href="/" class="topnav__homelink hover-fade">
+        <img src="/img/logo-mythos.svg" alt="Mythos homepage" class="topnav__logo" width="128" height="36">
+      </a>
+
+      <nav>
+        <span id="nav-label" hidden>Navigation</span>
+        <span id="close-label" hidden>Close Navigation</span>
+
+        <div class="topnav__overlay"></div>
+
+        <button id="btnOpen" class="topnav__open" aria-expanded="false" aria-labelledby="nav-label">
+          <img src="/img/hamburger.svg" alt="" width="30" height="23">
+        </button>
+
+        <div id="menuTopNav" class="topnav__menu" role="dialog" aria-labelledby="nav-label">
+          <button id="btnClose" class="topnav__close" aria-labelledby="close-label">
+            <img src="/img/close-button.svg" alt="" width="25" height="26">
+          </button>
+
+          <ul class="topnav__links">
+            <li class="topnav__item">
+              <a href="" class="topnav__link">Home</a>
+            </li>
+            <li class="topnav__item">
+              <a href="" class="topnav__link">Features</a>
+            </li>
+            <li class="topnav__item">
+              <a href="" class="topnav__link">Pricing</a>
+            </li>
+            <li class="topnav__item">
+              <a href="" class="topnav__link">About</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero">
+      <div class="wrapper hero__wrapper">
+        <img src="/img/unicorn.svg" alt="unicorn with stars" class="hero__image" width="483" height="486">
+
+        <div class="hero__text">
+          <h1 class="hero__title">Find that elusive unicorn.</h1>
+          <p class="hero__content large">
+            Mythos will enable you to discover the newest startups to invest in. Powered by AI, used by millions of
+            humans.
+          </p>
+          <div class="hero__buttons">
+            <a href="" class="button primary">Free Trial</a>
+            <a href="" class="button secondary">Pricing</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="features">
+      <h2 class="visually-hidden">Features</h2>
+
+      <div class="wrapper features__wrapper">
+        <div class="features__item">
+          <img src="/img/icon-asterisk.svg" alt="" class="features__icon" width="43" height="48">
+          <h3 class="features__title">AI-powered matching</h3>
+          <p class="features__description">
+            Phasellus ac mi magna. Sed scelerisque, turpis vitae consequat vehicula, sem turpis pretium tellus, tempor
+            posuere turpis est ac velit.
+          </p>
+        </div>
+        <div class="features__item">
+          <img src="/img/icon-bell.svg" alt="" class="features__icon" width="42" height="48">
+          <h3 class="features__title">Immediate notifications</h3>
+          <p class="features__description">
+            Mauris id vestibulum metus, ut pretium lacus. Phasellus ac mi magna. Sed scelerisque, turpis vitae consequat
+            vehicula, sem turpis pretium tellus, tempor posuere turpis est ac velit.
+          </p>
+        </div>
+        <div class="features__item">
+          <img src="/img/icon-payments.svg" alt="" class="features__icon" width="61" height="48">
+          <h3 class="features__title">Protected payments</h3>
+          <p class="features__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id vestibulum metus, ut pretium lacus.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="fw-feature fullwidth">
+      <div class="wrapper fw-feature__wrapper fullwidth__wrapper">
+        <h2 class="fw-feature__title fullwidth__title">Angel investment matching in real time.</h2>
+        <p class="fw-feature__description fullwidth__description medium">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id vestibulum metus, ut pretium lacus.
+          Phasellus ac mi magna. Sed scelerisque, turpis vitae.
+        </p>
+        <img src="/img/laptop-dashboard.svg" alt="laptop showing a dashboard on the screen" class="fw-feature__image"
+          width="792" height="465">
+      </div>
+    </section>
+
+    <section class="alt-features">
+      <div class="wrapper alt-features__wrapper">
+
+        <div class="alt-features__item">
+          <img src="/img/laptop-check.svg" alt="laptop with green check mark" class="alt-features__image" width="401"
+            height="242">
+          <div class="alt-features__text">
+            <h3 class="large alt-features__title">
+              <span class="alt-features__pre-title">
+                AI-Powered Matching
+              </span>
+              Avoid human error
+            </h3>
+            <p class="medium alt-features__description">
+              Ut sapien lectus, vulputate vitae lacus vel, incidunt sodales ipsum. Proin a sem molestie, pulvinar ante
+              non, laoreet ipsum. Sed nec pretium est. Nunc lectus sem.
+            </p>
+          </div>
+        </div>
+
+        <div class="alt-features__item">
+          <img src="/img/tablet-phone.svg" alt="tablet and phone showing pop-up" class="alt-features__image" width="353"
+            height="345">
+          <div class="alt-features__text">
+            <h3 class="large alt-features__title">
+              <span class="alt-features__pre-title">
+                Immediate notifications
+              </span>
+              Never miss an alert again
+            </h3>
+            <p class="medium alt-features__description">
+              Lorem ipsum dolor sit amet, <a href="">consectetur adipiscing</a> elit. Sed purus neque, tempor sit amet
+              fringilla in, aliquam et justo. Aenean ac porta urna. Nullam quis mattis mauris.
+            </p>
+          </div>
+        </div>
+
+        <div class="alt-features__item">
+          <img src="/img/tablet-payments.svg" alt="tablet with dashboard" class="alt-features__image" width="242"
+            height="345">
+          <div class="alt-features__text">
+            <h3 class="large alt-features__title">
+              <span class="alt-features__pre-title">
+                Protected Payments
+              </span>
+              Send payments from anywhere
+            </h3>
+            <p class="medium alt-features__description">
+              Ut sapien lectus, vulputate vitae lacus vel, tincidunt sodales ipsum. <a href="">Proin a sem molestie,</a>
+              pulvinar ante non, laoreet ipsum. Sed nec pretium est. Nunc lectus sem.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="testimonial dark">
+      <h2 class="visually-hidden">Testimonial</h2>
+
+      <div class="wrapper testimonial__wrapper">
+
+        <figure class="testimonial__figure">
+          <svg class="testimonial__icon" width="78" height="66" viewBox="0 0 78 66" fill="none"
+            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path class="testimonial__icon-path"
+              d="M17.8829 66C11.922 66 7.41951 63.8319 4.37561 59.4957C1.45854 55.0319 0 48.8463 0 40.9391C0 31.8841 2.21951 23.913 6.65854 17.0261C11.0975 10.1391 17.8829 4.46377 27.0146 0L33.1024 12.2435C27.3951 15.1768 23.0829 18.5565 20.1659 22.3826C17.3756 26.0811 15.9805 30.8 15.9805 36.5391C16.361 36.4116 16.9951 36.3478 17.8829 36.3478C21.9414 36.3478 25.3658 37.6232 28.1561 40.1739C31.0731 42.5971 32.5317 45.9768 32.5317 50.313C32.5317 55.1594 31.1366 58.9855 28.3463 61.7913C25.5561 64.5971 22.0683 66 17.8829 66ZM62.7805 66C56.8195 66 52.3171 63.8319 49.2732 59.4957C46.3561 55.0319 44.8976 48.8463 44.8976 40.9391C44.8976 31.8841 47.1171 23.913 51.5561 17.0261C55.9951 10.1391 62.7805 4.46377 71.9122 0L78 12.2435C72.2927 15.1768 67.9805 18.5565 65.0634 22.3826C62.2731 26.0811 60.8781 30.8 60.8781 36.5391C61.2585 36.4116 61.8927 36.3478 62.7805 36.3478C66.839 36.3478 70.2634 37.6232 73.0537 40.1739C75.9707 42.5971 77.4293 45.9768 77.4293 50.313C77.4293 55.1594 76.0342 58.9855 73.2439 61.7913C70.4536 64.5971 66.9659 66 62.7805 66Z" />
+          </svg>
+
+          <blockquote class="testimonial__blockquote">
+            <p class="testimonial__quote-text">
+              When I first started Evermindly, it was a bootstrapped business. However, we were quickly running out of
+              money. Thanks to Mythos, we were matched with investors for our seed funding and have now secured a Series
+              A
+              round!
+            </p>
+          </blockquote>
+
+          <figcaption class="testimonial__author-wrapper">
+            <img class="testimonial__author-image" src="/img/author-1x.jpg" alt="Headshot of Janice Hsu"
+              srcset="/img/author-2x.jpg 2x, /img/author-3x.jpg 3x" width="120" height="120">
+            <p class="testimonial__author-description">
+              Janice Hsu<br>
+              Founder and CEO, Evermindly
+            </p>
+          </figcaption>
+
+          <svg class="testimonial__icon" width="78" height="66" viewBox="0 0 78 66" fill="none"
+            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path class="testimonial__icon-path"
+              d="M17.8829 66C11.922 66 7.41951 63.8319 4.37561 59.4957C1.45854 55.0319 0 48.8463 0 40.9391C0 31.8841 2.21951 23.913 6.65854 17.0261C11.0975 10.1391 17.8829 4.46377 27.0146 0L33.1024 12.2435C27.3951 15.1768 23.0829 18.5565 20.1659 22.3826C17.3756 26.0811 15.9805 30.8 15.9805 36.5391C16.361 36.4116 16.9951 36.3478 17.8829 36.3478C21.9414 36.3478 25.3658 37.6232 28.1561 40.1739C31.0731 42.5971 32.5317 45.9768 32.5317 50.313C32.5317 55.1594 31.1366 58.9855 28.3463 61.7913C25.5561 64.5971 22.0683 66 17.8829 66ZM62.7805 66C56.8195 66 52.3171 63.8319 49.2732 59.4957C46.3561 55.0319 44.8976 48.8463 44.8976 40.9391C44.8976 31.8841 47.1171 23.913 51.5561 17.0261C55.9951 10.1391 62.7805 4.46377 71.9122 0L78 12.2435C72.2927 15.1768 67.9805 18.5565 65.0634 22.3826C62.2731 26.0811 60.8781 30.8 60.8781 36.5391C61.2585 36.4116 61.8927 36.3478 62.7805 36.3478C66.839 36.3478 70.2634 37.6232 73.0537 40.1739C75.9707 42.5971 77.4293 45.9768 77.4293 50.313C77.4293 55.1594 76.0342 58.9855 73.2439 61.7913C70.4536 64.5971 66.9659 66 62.7805 66Z" />
+          </svg>
+        </figure>
+
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="wrapper blog__wrapper">
+        <h2 class="blog__title">Recent blog posts</h2>
+        <div class="blog__grid">
+
+          <article class="blog__item">
+            <img class="blog__image" src="/img/blog/blog1-2x.jpg" alt="" srcset="/img/blog/blog1-3x.jpg 3x" width="774"
+              height="1032">
+            <div class="blog__filter"></div>
+            <div class="blog__text">
+              <h3 class="blog__post-title">
+                <a class="blog__post-link" href="">Navigating the Angel Investment Landscape</a>
+              </h3>
+              <p class="small blog__post-description">Vestibulum ultrices erat est, non imperdiet velit ultricies a.
+                Proin
+                erat orci, lacinia a eros nec, ultricies rutrum leo.</p>
+              <div class="blog__post-meta">
+                <time datetime="2026-06-14" class="blog__post-datetime">June 14, 2026</time>
+                <p class="blog__post-readtime">8 min read</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog__item">
+            <img class="blog__image" src="/img/blog/blog2-2x.jpg" alt="" srcset="/img/blog/blog2-3x.jpg 3x" width="1161"
+              height="774">
+            <div class="blog__filter"></div>
+            <div class="blog__text">
+              <h3 class="blog__post-title">
+                <a class="blog__post-link" href="">The Ultimate Guide to Finding Promising Startups to Invest in</a>
+              </h3>
+              <p class="small blog__post-description">Etiam interdum rhoncus eros id bibendum. Duis rutrum nisl quis
+                accumsan viverra.</p>
+              <div class="blog__post-meta">
+                <time datetime="2026-05-21" class="blog__post-datetime">May 21, 2026</time>
+                <p class="blog__post-readtime">15 min read</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog__item">
+            <img class="blog__image" src="/img/blog/blog3-2x.jpg" alt="" srcset="/img/blog/blog3-3x.jpg 3x" width="985"
+              height="774">
+            <div class="blog__filter"></div>
+            <div class="blog__text">
+              <h3 class="blog__post-title">
+                <a class="blog__post-link" href="">Industry Insights: How to Identify Emerging Trends</a>
+              </h3>
+              <p class="small blog__post-description">Non imperdiet velit ultricies a. Proin erat orci, lacinia a eros
+                nec, ultricies rutrum leo.</p>
+              <div class="blog__post-meta">
+                <time datetime="2026-05-09" class="blog__post-datetime">May 9, 2026</time>
+                <p class="blog__post-readtime">11 min read</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog__item">
+            <img class="blog__image" src="/img/blog/blog4-2x.jpg" alt="" srcset="/img/blog/blog4-3x.jpg 3x" width="801"
+              height="1200">
+            <div class="blog__filter"></div>
+            <div class="blog__text">
+              <h3 class="blog__post-title">
+                <a class="blog__post-link" href="">Building Connections to Uncover Investment Opportunities</a>
+              </h3>
+              <p class="small blog__post-description">Duis rutrum nisl quis accumsan viverra. Morbi risus ante,
+                convallis vel nulla ut, iaculis maximus sapien.</p>
+              <div class="blog__post-meta">
+                <time datetime="2026-04-18" class="blog__post-datetime">April 18, 2026</time>
+                <p class="blog__post-readtime">18 min read</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog__item">
+            <img class="blog__image" src="/img/blog/blog5-2x.jpg" alt="" srcset="/img/blog/blog5-3x.jpg 3x" width="1200"
+              height="900">
+            <div class="blog__filter"></div>
+            <div class="blog__text">
+              <h3 class="blog__post-title">
+                <a class="blog__post-link" href="">Insider Tips for Finding Hidden Gems</a>
+              </h3>
+              <p class="small blog__post-description">Vestibulum ultrices erat est, non imperdiet velit ultricies a.
+                Proin erat orci.</p>
+              <div class="blog__post-meta">
+                <time datetime="2026-03-30" class="blog__post-datetime">March 30, 2026</time>
+                <p class="blog__post-readtime">9 min read</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="fw-cta fullwidth">
+      <div class="wrapper fw-cta__wrapper fullwidth__wrapper">
+        <h2 class="fw-cta__title fullwidth__title">Get started with Mythos today</h2>
+        <p class="fw-cta__description fullwidth__description large">
+          Contact us to find the next undiscovered unicorn.
+        </p>
+
+        <form class="form" action="" method="post">
+          <label class="form__label" for="txtEmail">Email address</label>
+          <input class="form__text" type="email" name="email" id="txtEmail" placeholder="test@test.com" required>
+          <button class="button primary white form__button" type="submit">Contact</button>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <h2 class="visually-hidden">Footer</h2>
+
+    <div class="wrapper footer__wrapper">
+      <div class="footer__top">
+        <a href="/" class="footer__homelink hover-fade">
+          <img src="/img/logo-mythos-dark.svg" alt="Mythos homepage" class="footer__logo" width="128" height="36">
+        </a>
+        <p class="footer__copyright">© 2026 Mythos, LLC</p>
+      </div>
+
+      <div class="footer__column">
+        <h3 class="footer__title">Company</h3>
+        <ul class="footer__links">
+          <li class="footer__item">
+            <a href="" class="footer__link">About</a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link">News & Press</a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link">Careers</a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="footer__column">
+        <h3 class="footer__title">Support</h3>
+        <ul class="footer__links">
+          <li class="footer__item">
+            <a href="" class="footer__link">Customer Support</a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link">Community Forum</a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link">Knowledge Base</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="footer__column">
+        <h3 class="footer__title">Follow</h3>
+        <ul class="footer__links">
+          <li class="footer__item">
+            <a href="" class="footer__link">
+              <svg class="footer__social-svg" width="18" height="15" viewBox="0 0 18 15" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Twitter</title>
+                <path class="footer__social-path"
+                  d="M16.15 3.73563C16.161 3.8998 16.161 4.06397 16.161 4.22814C16.1711 5.64585 15.9064 7.05147 15.3823 8.36328C14.8582 9.67508 14.0852 10.8669 13.1082 11.8694C12.1311 12.8719 10.9696 13.6651 9.69111 14.2028C8.41262 14.7406 7.0427 15.0122 5.661 15.0018C3.65353 15.0051 1.68781 14.4137 0 13.2985C0.295849 13.3321 0.593357 13.3478 0.891 13.3457C2.55139 13.3501 4.1648 12.7804 5.471 11.7287C4.70146 11.7136 3.95566 11.4527 3.33746 10.9822C2.71925 10.5118 2.25942 9.85521 2.022 9.10399C2.25356 9.14155 2.48756 9.1611 2.722 9.16247C3.04967 9.1614 3.37591 9.11796 3.693 9.03319C2.85688 8.86054 2.10486 8.39603 1.56485 7.71867C1.02484 7.04131 0.730185 6.19293 0.731 5.31781V5.27062C1.24256 5.56384 1.81446 5.72873 2.4 5.75184C1.61708 5.21593 1.06298 4.39367 0.850752 3.45287C0.638529 2.51206 0.784186 1.52362 1.258 0.689251C2.1847 1.85949 3.34078 2.8168 4.65125 3.4991C5.96173 4.1814 7.39735 4.57346 8.865 4.64985C8.80593 4.36478 8.77544 4.07426 8.774 3.78283C8.77483 3.02361 8.9979 2.28216 9.41431 1.65458C9.83072 1.027 10.4213 0.542247 11.1094 0.263145C11.7975 -0.0159582 12.5515 -0.0765347 13.2735 0.0892718C13.9956 0.255078 14.6525 0.639622 15.159 1.19305C15.985 1.02972 16.7772 0.720373 17.5 0.278825C17.2249 1.15359 16.6482 1.8953 15.878 2.36481C16.6098 2.27897 17.325 2.0815 18 1.77893C17.495 2.53327 16.8695 3.19479 16.15 3.73563Z" />
+              </svg>
+              Twitter</a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link">
+              <svg class="footer__social-svg" width="18" height="19" viewBox="0 0 18 19" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Facebook</title>
+                <path class="footer__social-path"
+                  d="M18 9.5545C17.9998 7.8241 17.5067 6.13 16.5793 4.67276C15.6518 3.21553 14.3288 2.05617 12.7668 1.33195C11.2047 0.607732 9.46919 0.348976 7.76556 0.586318C6.06193 0.823659 4.46156 1.54716 3.15392 2.67116C1.84628 3.79517 0.886124 5.27261 0.387126 6.92857C-0.111872 8.58454 -0.128817 10.3497 0.338297 12.015C0.805411 13.6804 1.73702 15.1762 3.02284 16.3254C4.30866 17.4746 5.89484 18.2291 7.5936 18.4995V12.1715H5.30756V9.5545H7.5936V7.5595C7.54534 7.09379 7.59925 6.62309 7.75153 6.18063C7.90381 5.73817 8.15074 5.33473 8.4749 4.99876C8.79907 4.66279 9.19256 4.40249 9.62762 4.23623C10.0627 4.06996 10.5287 4.00178 10.9928 4.0365C11.6678 4.04602 12.3411 4.10518 13.0075 4.2135V6.4405H11.8724C11.6791 6.41484 11.4826 6.43323 11.2973 6.4943C11.112 6.55537 10.9427 6.65756 10.802 6.79332C10.6612 6.92908 10.5526 7.09492 10.4841 7.2786C10.4156 7.46229 10.3891 7.6591 10.4064 7.8545V9.5545H12.9022L12.5046 12.1715H10.4064V18.4995C12.5232 18.1619 14.4509 17.0757 15.8428 15.436C17.2348 13.7963 17.9997 11.7108 18 9.5545Z" />
+              </svg>
+              Facebook</a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link">
+              <svg class="footer__social-svg" width="18" height="19" viewBox="0 0 18 19" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Instagram</title>
+                <path class="footer__social-path"
+                  d="M9.00344 4.88273C8.09104 4.88273 7.19913 5.15344 6.44049 5.66063C5.68186 6.16781 5.09058 6.8887 4.74142 7.73212C4.39226 8.57554 4.3009 9.50362 4.4789 10.399C4.6569 11.2944 5.09627 12.1168 5.74143 12.7623C6.38659 13.4079 7.20858 13.8475 8.10345 14.0256C8.99832 14.2037 9.92587 14.1123 10.7688 13.7629C11.6118 13.4136 12.3322 12.8219 12.8391 12.0629C13.3461 11.3038 13.6166 10.4114 13.6166 9.4985C13.6175 8.89209 13.4988 8.29146 13.2673 7.73103C13.0358 7.1706 12.6961 6.6614 12.2675 6.2326C11.8389 5.8038 11.33 5.46384 10.7699 5.23221C10.2098 5.00057 9.60951 4.88181 9.00344 4.88273ZM9.00344 12.499C8.41033 12.499 7.83054 12.323 7.33738 11.9933C6.84423 11.6636 6.45987 11.195 6.23289 10.6467C6.00592 10.0985 5.94653 9.49517 6.06224 8.91313C6.17795 8.33109 6.46356 7.79645 6.88296 7.37682C7.30235 6.9572 7.83668 6.67143 8.4184 6.55565C9.00011 6.43988 9.60307 6.4993 10.151 6.7264C10.699 6.9535 11.1673 7.33808 11.4969 7.83151C11.8264 8.32494 12.0022 8.90506 12.0022 9.4985C12.0007 10.2938 11.6842 11.0561 11.1222 11.6184C10.5601 12.1808 9.79828 12.4974 9.00344 12.499ZM14.8811 4.6977C14.8811 4.91055 14.818 5.11862 14.6998 5.29559C14.5817 5.47257 14.4137 5.6105 14.2171 5.69196C14.0206 5.77341 13.8043 5.79473 13.5957 5.7532C13.3871 5.71168 13.1954 5.60918 13.045 5.45867C12.8946 5.30817 12.7921 5.11641 12.7506 4.90765C12.7091 4.69889 12.7304 4.48251 12.8118 4.28586C12.8932 4.08922 13.0311 3.92114 13.208 3.80289C13.3849 3.68464 13.5928 3.62152 13.8055 3.62152C13.9465 3.62126 14.0862 3.64878 14.2165 3.70252C14.3469 3.75626 14.4654 3.83516 14.5653 3.93473C14.6651 4.03429 14.7444 4.15255 14.7986 4.28278C14.8528 4.413 14.8808 4.55263 14.8811 4.6937V4.6977ZM17.9369 5.78988C17.9667 4.39011 17.4445 3.03487 16.4835 2.01725C15.4644 1.05887 14.1113 0.536993 12.713 0.56301C11.2276 0.478997 6.77532 0.478997 5.28891 0.56301C3.89099 0.53506 2.53765 1.05559 1.5184 2.01325C0.559998 3.03127 0.0385658 4.3846 0.0659739 5.78288C-0.0219913 7.27313 -0.0219913 11.7239 0.0659739 13.2101C0.0362138 14.6099 0.558326 15.9651 1.5194 16.9827C2.53888 17.9405 3.89171 18.4623 5.28991 18.437C6.77532 18.521 11.2276 18.521 12.714 18.437C14.113 18.4668 15.4674 17.9444 16.4845 16.9827C17.4423 15.9631 17.9639 14.6092 17.9379 13.2101C18.0209 11.7239 18.0209 7.27313 17.9369 5.78688V5.78988ZM16.0177 14.8084C15.865 15.1956 15.6343 15.5474 15.3401 15.8418C15.0459 16.1361 14.6944 16.3669 14.3073 16.5197C13.1228 16.9897 10.3089 16.8807 9.00344 16.8807C7.69795 16.8807 4.88007 16.9807 3.69954 16.5197C3.31249 16.3669 2.96096 16.1361 2.66675 15.8418C2.37253 15.5474 2.14192 15.1956 1.98921 14.8084C1.5194 13.6232 1.62836 10.8077 1.62836 9.5015C1.62836 8.19528 1.52839 5.37581 1.98921 4.19461C2.14192 3.80735 2.37253 3.45562 2.66675 3.16125C2.96096 2.86687 3.31249 2.63612 3.69954 2.48333C4.88407 2.01325 7.69795 2.12227 9.00344 2.12227C10.3089 2.12227 13.1268 2.02225 14.3073 2.48333C14.6944 2.63612 15.0459 2.86687 15.3401 3.16125C15.6343 3.45562 15.865 3.80735 16.0177 4.19461C16.4875 5.37981 16.3785 8.19528 16.3785 9.5015C16.3785 10.8077 16.4875 13.6242 16.0177 14.8054V14.8084Z" />
+              </svg>
+              Instagram</a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link">
+              <svg class="footer__social-svg" width="18" height="13" viewBox="0 0 18 13" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>YouTube</title>
+                <path class="footer__social-path"
+                  d="M17.6231 2.15138C17.5211 1.76877 17.3205 1.41962 17.0413 1.13884C16.7621 0.858063 16.4141 0.655487 16.0321 0.551378C13.6987 0.270219 11.3492 0.143279 8.9991 0.171381C6.64931 0.142992 4.30022 0.269597 1.9671 0.550379C1.58506 0.654488 1.23705 0.857056 0.957851 1.13783C0.678652 1.41861 0.47805 1.76776 0.376098 2.15038C-0.125366 5.03575 -0.125366 7.986 0.376098 10.8714C0.47818 11.2514 0.679076 11.5976 0.958355 11.8747C1.23763 12.1519 1.58533 12.3502 1.9661 12.4494C4.29922 12.7302 6.64831 12.8568 8.9981 12.8284C11.3479 12.8568 13.697 12.7302 16.0301 12.4494C16.4114 12.3506 16.7597 12.1526 17.0396 11.8754C17.3194 11.5982 17.5208 11.2517 17.6231 10.8714C18.1246 7.98601 18.1246 5.03575 17.6231 2.15038V2.15138ZM7.1581 9.18838V3.83638L11.8581 6.51238L7.1581 9.18838Z" />
+              </svg>
+              YouTube</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="footer__column">
+        <h3 class="footer__title">Resources</h3>
+        <ul class="footer__links">
+          <li class="footer__item">
+            <a href="" class="footer__link">Privacy Policy</a>
+          </li>
+          <li class="footer__item">
+            <a href="" class="footer__link">Terms of Use</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
